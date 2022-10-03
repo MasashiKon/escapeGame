@@ -8,7 +8,7 @@ class GameScene1 extends Phaser.Scene {
         this.load.image('face1KeyFalse', 'imageFile/Face1KeyFalse.png');
         this.load.image('face1KeyTrue', 'imageFile/Face1KeyTrue.png');
         this.load.image('face1Beyond', 'imageFile/Face1Beyond.png');
-        this.load.audio('doorSound', 'soundFile/ドアを開ける1.mp3');
+        this.load.audio('doorSound', 'soundFile/opendoor.mp3');
     }
 
     create() {
