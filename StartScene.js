@@ -143,7 +143,7 @@ class StartScene extends Phaser.Scene {
 
         this.load.audio('applause', 'soundFile/waa.mp3');
 
-        this.load.image('paintNum', 'imageFile/paintNum.png');
+        this.load.image('paintNum', 'imageFile/paintNum2.png');
 
         this.load.image('peekThroughNum', 'imageFile/PeekThroughNum.png');
 
