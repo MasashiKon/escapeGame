@@ -3,9 +3,6 @@ class DeskLamp extends Phaser.Scene {
         super({key: 'DeskLamp'})
     }
 
-    preload() {
-        this.load.image('deskLamp', 'imageFile/DeskLamp.png');
-    }
 
     create() {
         this.add.image(0, 0, 'deskLamp').setOrigin(0, 0);

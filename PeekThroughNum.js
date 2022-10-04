@@ -3,9 +3,7 @@ class PeekThroughNum extends Phaser.Scene {
         super({key: 'PeekThroughNum'})
     }
 
-    preload() {
-        this.load.image('peekThroughNum', 'imageFile/PeekThroughNum.png');
-    }
+
 
     create() {
         this.add.image(0, 0, 'peekThroughNum').setOrigin(0, 0);

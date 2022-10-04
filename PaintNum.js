@@ -3,9 +3,7 @@ class PaintNum extends Phaser.Scene {
         super({key: 'PaintNum'})
     }
 
-    preload() {
-        this.load.image('paintNum', 'imageFile/paintNum.png');
-    }
+
 
     create() {
         this.add.image(0, 0, 'paintNum').setOrigin(0, 0);

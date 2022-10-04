@@ -3,20 +3,7 @@ class GameScene4 extends Phaser.Scene {
         super({key: 'GameScene4'})
     }
 
-    preload() {
-        this.load.image('face4', 'imageFile/Face4.png');
-        this.load.image('paintDefault', 'imageFile/paintDefault.png');
-        this.load.image('paintClicked', 'imageFile/paintClicked.png');
-        this.load.image('paintDone', 'imageFile/paintDone.png');
-        this.load.image('Face4GlassCupLayer', 'imageFile/Face4GlassCupLayer.png');
-        this.load.image('vaultDoor', 'imageFile/vaultDoor.png');
-        this.load.image('face4HummerHitAction', 'imageFile/face4HummerHitAction.png');
-        this.load.image('face4BallDoneLayer', 'imageFile/Face4BallDoneLayer.png');
-        this.load.image('key4Layer', 'imageFile/key4Layer.png');
-        this.load.image('key4', 'imageFile/key4.png');
-        this.load.audio('paintSound', 'soundFile/takeDVD.mp3');
-        this.load.audio('paintRemoved', 'soundFile/openDVDCase.mp3');
-    }
+
 
     create() {
         this.add.image(0, 0, 'face4').setOrigin(0, 0);

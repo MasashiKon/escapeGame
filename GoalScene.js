@@ -29,6 +29,8 @@ class GoalScene extends Phaser.Scene {
 
              if(!gameState.doneEvents.applause) {
 
+                this.applause = this.sound.add('applause');
+
                 this.applause.play();
 
                 gameState.doneEvents.applause = true;

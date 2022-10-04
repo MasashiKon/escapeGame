@@ -3,11 +3,6 @@ class Face1KeyHole extends Phaser.Scene {
         super({key: 'Face1KeyHole'})
     }
 
-    preload() {
-        this.load.image('face1KeyHole', 'imageFile/Face1KeyHole.png');
-        this.load.image('face1KeyInserted', 'imageFile/Face1KeyInserted.png');
-        this.load.image('face1KeyTurned', 'imageFile/Face1KeyTurned.png');
-    }
 
     create() {
         this.add.image(0, 0, 'face1KeyHole').setOrigin(0, 0);

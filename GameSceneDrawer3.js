@@ -3,11 +3,6 @@ class GameSceneDrawer3 extends Phaser.Scene {
         super({key: 'GameSceneDrawer3'})
     }
 
-    preload() {
-        this.load.image('drawer3', 'imageFile/drawer3.png');    
-        this.load.image('handle', 'imageFile/handle.png'); 
-        this.load.image('handleLayer', 'imageFile/handleLayer.png');    
-    }
 
     create() {
         this.handle = this.add.image(0, 0, 'drawer3').setOrigin(0, 0);

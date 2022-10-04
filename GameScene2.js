@@ -3,37 +3,6 @@ class GameScene2 extends Phaser.Scene {
         super({key: 'GameScene2'})
     }
 
-    preload() {
-        this.load.image('face2', 'imageFile/Face2.png');
-        this.load.image('scissors', 'imageFile/scissors.png');
-        this.load.image('scissorsLayer', 'imageFile/scissorsLayer.png');
-
-
-        // this.load.image('closetDoorRight', 'imageFile/Face2ClosetDoorRight.png');
-        // this.load.image('closetDoorLeft', 'imageFile/Face2ClosetDoorLeft.png');
-
-        this.load.image('Face2ClosetDoorDefault', 'imageFile/Face2ClosetDoorDefault.png');
-        this.load.image('Face2ClosetDoor2', 'imageFile/Face2ClosetDoor2.png');
-        this.load.image('Face2ClosetDoor3', 'imageFile/Face2ClosetDoor3.png');
-        this.load.image('Face2ClosetDoor4', 'imageFile/Face2ClosetDoor4.png');
-        
-        //this.load.image('pensRange', 'imageFile/30x30.png');
-        
-        this.load.image('deskDrawer1', 'imageFile/deskDrawer1.png');
-        this.load.image('drawer1FalseRange', 'imageFile/206x40.png');
-        this.load.image('drawer1TrueRange', 'imageFile/237x70.png');
-        this.load.image('clickedArea', 'imageFile/10x10.png');
-        //this.load.image('pcCable', 'imageFile/pcCable.png');
-        this.load.image('key1', 'imageFile/key1.png');  
-        this.load.image('drawer2Open', 'imageFile/drawer2Open.png');  
-        this.load.image('drawer3Open', 'imageFile/drawer3Open.png');  
-        this.load.image('drawer4Open', 'imageFile/drawer4Open.png'); 
-
-        this.load.audio('break2', 'soundFile/heavyPunch.mp3');
-        this.load.audio('break', 'soundFile/punch3.mp3');
-        this.load.audio('drawerOpen', 'soundFile/openDrawer.mp3');
-        this.load.audio('drawerClose', 'soundFile/cupboard1_C.mp3');
-    }
 
     create() {
         this.face2 = this.add.image(0, 0, 'face2').setOrigin(0, 0);

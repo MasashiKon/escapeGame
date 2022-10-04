@@ -3,16 +3,6 @@ class Box1Scene extends Phaser.Scene {
         super({key: 'Box1Scene'})
     }
 
-    preload() {
-        this.load.image('box1', 'imageFile/box1.png');
-        this.load.image('box1Close', 'imageFile/box1Close.png');
-        this.load.image('box1KeyHole', 'imageFile/box1KeyHole.png');
-        this.load.image('box1KeyHoleInserted', 'imageFile/box1KeyHoleInserted.png');
-        this.load.image('box1KeyHoleInsertedTurned', 'imageFile/box1KeyHoleInsertedTurned.png');
-        this.load.image('hammerLayer', 'imageFile/hammerLayer.png');
-        this.load.image('straw', 'imageFile/straw.png');
-    }
-
     create() {
 
         if (!gameState.items.key1.done && !gameState.doneEvents.box1) {

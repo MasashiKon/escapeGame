@@ -3,11 +3,7 @@ class Shed2 extends Phaser.Scene {
         super({key: 'Shed2'})
     }
 
-    preload() {
-        this.load.image('shed2', 'imageFile/shed2.png');
-        this.load.image('messageLayer', 'imageFile/messageLayer.png');
 
-    }
 
     create() {
         this.add.image(0, 0, 'shed2').setOrigin(0, 0);

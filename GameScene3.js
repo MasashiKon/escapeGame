@@ -3,25 +3,7 @@ class GameScene3 extends Phaser.Scene {
         super({key: 'GameScene3'})
     }
 
-    preload() {
-        this.load.image('face3', 'imageFile/Face3.png');
-        this.load.image('bracketClose', 'imageFile/bracketCloseScene.png');
-        this.load.image('bracketOpenFalse', 'imageFile/bracketOpenFalseScene.png');
-        this.load.image('bracketOpenTrue', 'imageFile/bracketOpenTrueScene.png');
-        this.load.image('bracketOpenTrueFalse', 'imageFile/bracketOpenTrueFalseScene.png');
-        this.load.image('Face3HandleLayer', 'imageFile/Face3HandleLayer.png');
-        this.load.image('monitorLayer', 'imageFile/monitorLayer.png');
-        this.load.image('screenLayerOn', 'imageFile/screenLayerOn.png');
-        this.load.image('hint1', 'imageFile/hint1.png');
-        this.load.image('bigHammerLayer', 'imageFile/bigHammerLayer.png');
-        this.load.image('vineLayer', 'imageFile/vineLayer.png');
-        this.load.image('leavesLayer', 'imageFile/leavesLayer.png');
-        this.load.image('leaves', 'imageFile/leaves.png');
-        this.load.image('bigHammer', 'imageFile/bigHammer.png');
-        this.load.audio('screenSound', 'soundFile/button35.mp3');
-        this.load.audio('scissorsSound', 'soundFile/scissors3.mp3');
-        this.load.audio('bracketSound', 'soundFile/bofu.mp3');
-    }
+
 
     create() {
         this.add.image(0, 0, 'face3').setOrigin(0, 0);

@@ -3,10 +3,6 @@ class GameSceneDrawer1Downside extends Phaser.Scene {
         super({key: 'GameSceneDrawer1Downside'})
     }
 
-    preload() {
-        this.load.image('drawer1Down', 'imageFile/drawer1Downside.png');
-        this.load.image('key1Layer', 'imageFile/key1Layer.png');
-    }
 
     create() {
         const drawer1Down = this.add.image(0, 0, 'drawer1Down');

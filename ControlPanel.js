@@ -3,20 +3,6 @@ class ControlPanel extends Phaser.Scene {
         super({key: 'ControlPanel'})
     }
 
-    preload() {
-        this.load.image('controlPanel', 'imageFile/controlPanel.png');
-        this.load.image('handle', 'imageFile/handle.png');
-        this.load.image('handleHole', 'imageFIle/handleHole.png');
-        this.load.image('handleScene', 'imageFIle/handleScene.png');
-        this.load.image('controlPanelKeyHole', 'imageFIle/ControlPanelKeyHole.png');
-        this.load.image('controlPanelKeyHoleInserted', 'imageFIle/ControlPanelKeyHoleInserted.png');
-        this.load.image('controlPanelKeyHoleTurned', 'imageFIle/controlPanelKeyHoleTurned.png');
-        this.load.audio('handleSound', 'soundFile/staple.mp3');
-        this.load.audio('key4Sound', 'soundFile/stopFire.mp3');
-        this.load.audio('mixStart', 'soundFile/pcOn.mp3');
-        this.load.audio('mixEnd', 'soundFile/pcOff.mp3');
-        this.load.spritesheet('handleSpriteSheet', 'imageFile/handleSpriteSheet.png', { frameWidth: 800, frameHeight: 600 })
-    }
 
     create() {
        

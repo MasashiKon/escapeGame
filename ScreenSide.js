@@ -3,14 +3,6 @@ class ScreenSide extends Phaser.Scene {
         super({key: 'ScreenSide'})
     }
 
-    preload() {
-        this.load.image('screenSide', 'imageFile/ScreenSide.png');
-        this.load.image('key2Layer', 'imageFile/key2Layer.png');
-        this.load.image('key2', 'imageFile/key2.png');
-        this.load.image('power', 'imageFile/powerLayer.png');
-        this.load.image('powerPressed', 'imageFile/powerLayerPressed.png');
-    }
-
     create() {
         this.add.image(0, 0, 'screenSide').setOrigin(0, 0);
 

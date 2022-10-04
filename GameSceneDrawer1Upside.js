@@ -3,13 +3,6 @@ class GameSceneDrawer1Upside extends Phaser.Scene {
         super({key: 'GameSceneDrawer1Upside'})
     }
 
-    preload() {
-        this.load.image('drawer1Up', 'imageFile/drawer1Upside.png');
-        this.load.image('pcCableLayer', 'imageFile/pcCableLayer.png');
-        this.load.image('screenControler', 'imageFile/screenControler.png');
-        this.load.image('screenControlerLayer', 'imageFile/screenControlerLayer.png');
-    }
-
     create() {
         this.add.image(0, 0, 'drawer1Up').setOrigin(0, 0);
         this.drawerClose = this.sound.add('drawerClose');

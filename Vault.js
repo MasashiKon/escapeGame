@@ -3,50 +3,7 @@ class Vault extends Phaser.Scene {
         super({key: 'Vault'})
     }
 
-    preload() {
-        this.load.image('vault', 'imageFile/VaultScene.png');
-        this.load.image('vaultNumsLayer', 'imageFile/vaultNumsLayer.png');
-        this.load.image('vaultInside', 'imageFile/vaultInside.png');
-        this.load.image('vaultLine', 'imageFile/vaultLine.png');
-        this.load.image('vaultMask', 'imageFile/vaultMask.png');
-        this.load.image('glassCup', 'imageFile/glassCup.png');
-        this.load.image('glassCupAndKey3', 'imageFile/glassCupAndKey3.png');
-        this.load.image('drinkLayerBanana', 'imageFile/drinkLayerBanana.png');
-        this.load.image('drinkLayerBananaAndFull', 'imageFile/drinkLayerBananaAndFull.png');
-        this.load.image('drinkLayerBananaAndHalf', 'imageFile/drinkLayerBananaAndHalf.png');
-        this.load.image('drinkLayerFull', 'imageFile/drinkLayerFull.png');
-        this.load.image('drinkLayerHalf', 'imageFile/drinkLayerHalf.png');
-        this.load.image('drinkLayerLeaf', 'imageFile/drinkLayerLeaf.png');
-        this.load.image('drinkLayerBananaAndLeaf', 'imageFile/drinkLayerBananaAndLeaf.png');
-        this.load.image('drinkLayerLeafAndHalf', 'imageFile/drinkLayerLeafAndHalf.png');
-        this.load.image('drinkLayerBananaAndLeafAndHalf', 'imageFile/drinkLayerBananaAndLeafAndHalf.png');
-        this.load.image('drinkLayerLeafAndFull', 'imageFile/drinkLayerLeafAndFull.png');
-        this.load.image('drinkLayerBananaAndLeafAndFull', 'imageFile/drinkLayerBananaAndLeafAndFull.png');
-        this.load.image('drinkLayer', 'imageFIle/drinkLayer.png');
-        this.load.image('drinkStrawLayer', 'imageFIle/drinkStrawLayer.png')
-        this.load.image('drinkDone', 'imageFIle/drinkDone.png')
-        this.load.image('key3', 'imageFile/key3.png');
-        this.load.image('zero', 'imageFile/zero.png');
-        this.load.image('one', 'imageFile/one.png');
-        this.load.image('two', 'imageFile/two.png');
-        this.load.image('three', 'imageFile/three.png');
-        this.load.image('four', 'imageFile/four.png');
-        this.load.image('five', 'imageFile/five.png');
-        this.load.image('six', 'imageFile/six.png');
-        this.load.image('seven', 'imageFile/seven.png');
-        this.load.image('eight', 'imageFile/eight.png');
-        this.load.image('nine', 'imageFile/nine.png');
-        this.load.image('ballActionMask', 'imageFile/ballActionMask.png');
-        this.load.audio('tap', 'soundFile/cursorMove.mp3');
-        this.load.audio('correct', 'soundFile/button40.mp3');
-        this.load.audio('dropKey', 'soundFile/dropKey.mp3');
-        this.load.audio('drinkSound', 'soundFile/drinking1.mp3');
-        this.load.audio('vaultOpneSound', 'soundFile/deep_bass_vib.mp3');
-        this.load.audio('vaultOpneSound2', 'soundFile/cameraShutter.mp3');
-        this.load.audio('vaultOpneSound3', 'soundFile/pushu.mp3');
-        this.load.spritesheet('ballSpriteSheet', 'imageFile/ballSpriteSheet.png', { frameWidth: 800, frameHeight: 600 });
-        this.load.spritesheet('drinkSpriteSheet', 'imageFile/drinkSpriteSheet.png', { frameWidth: 800, frameHeight: 600 });
-    }
+
 
     create() {
 

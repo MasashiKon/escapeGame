@@ -3,11 +3,7 @@ class BallScene extends Phaser.Scene {
         super({key: 'BallScene'})
     }
 
-    preload() {
-        this.load.image('ballScene', 'imageFile/BallScene.png');
-        this.load.image('ballLayer', 'imageFile/ballLayer.png');
-        this.load.image('ball', 'imageFile/ball.png');
-    }
+  
 
     create() {
         this.add.image(0, 0, 'ballScene').setOrigin(0, 0);
