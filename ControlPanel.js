@@ -21,6 +21,8 @@ class ControlPanel extends Phaser.Scene {
 
             this.input.on('drop',  function (pointer, gameObject, dropZone) {
                 if (dropZone === this.handleSetZone && gameState.grabedItem.id === 'handle') {
+                    this.common = this.sound.add('common');
+                    this.common.play();
                     this.itemDone('handle');
                     this.handleSetZone.destroy();
                     this.handleHole.destroy();

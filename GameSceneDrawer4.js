@@ -15,7 +15,7 @@ class GameSceneDrawer4 extends Phaser.Scene {
         if(!gameState.doneEvents.lid) {
 
             this.drawer4Lid = this.add.image(0, 0, 'drawer4Lid').setOrigin(0, 0);
-            this.acid = this.sound.add('acid', {volume: .5})
+            this.acid = this.sound.add('acid', {volume: .2})
             this.acid2 = this.sound.add('acid2', {volume: .5})
             //this.plugins.get('rexsoundfadeplugin').fadeOut(this, this.acid, 10);
             // this.tweens.add({
