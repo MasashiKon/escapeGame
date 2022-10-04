@@ -31,11 +31,11 @@ class StartScene extends Phaser.Scene {
 
         this.load.image('controlPanel', 'imageFile/controlPanel.png');
         this.load.image('handle', 'imageFile/handle.png');
-        this.load.image('handleHole', 'imageFIle/handleHole.png');
-        this.load.image('handleScene', 'imageFIle/handleScene.png');
-        this.load.image('controlPanelKeyHole', 'imageFIle/ControlPanelKeyHole.png');
-        this.load.image('controlPanelKeyHoleInserted', 'imageFIle/ControlPanelKeyHoleInserted.png');
-        this.load.image('controlPanelKeyHoleTurned', 'imageFIle/controlPanelKeyHoleTurned.png');
+        this.load.image('handleHole', 'imageFile/handleHole.png');
+        this.load.image('handleScene', 'imageFile/handleScene.png');
+        this.load.image('controlPanelKeyHole', 'imageFile/ControlPanelKeyHole.png');
+        this.load.image('controlPanelKeyHoleInserted', 'imageFile/ControlPanelKeyHoleInserted.png');
+        this.load.image('controlPanelKeyHoleTurned', 'imageFile/controlPanelKeyHoleTurned.png');
         this.load.audio('handleSound', 'soundFile/staple.mp3');
         this.load.audio('key4Sound', 'soundFile/stopFire.mp3');
         this.load.audio('mixStart', 'soundFile/pcOn.mp3');
@@ -182,9 +182,9 @@ class StartScene extends Phaser.Scene {
         this.load.image('drinkLayerBananaAndLeafAndHalf', 'imageFile/drinkLayerBananaAndLeafAndHalf.png');
         this.load.image('drinkLayerLeafAndFull', 'imageFile/drinkLayerLeafAndFull.png');
         this.load.image('drinkLayerBananaAndLeafAndFull', 'imageFile/drinkLayerBananaAndLeafAndFull.png');
-        this.load.image('drinkLayer', 'imageFIle/drinkLayer.png');
-        this.load.image('drinkStrawLayer', 'imageFIle/drinkStrawLayer.png')
-        this.load.image('drinkDone', 'imageFIle/drinkDone.png')
+        this.load.image('drinkLayer', 'imageFile/drinkLayer.png');
+        this.load.image('drinkStrawLayer', 'imageFile/drinkStrawLayer.png')
+        this.load.image('drinkDone', 'imageFile/drinkDone.png')
         this.load.image('key3', 'imageFile/key3.png');
         this.load.image('zero', 'imageFile/zero.png');
         this.load.image('one', 'imageFile/one.png');
