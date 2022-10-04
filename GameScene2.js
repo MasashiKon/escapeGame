@@ -29,9 +29,9 @@ class GameScene2 extends Phaser.Scene {
         this.load.image('drawer3Open', 'imageFile/drawer3Open.png');  
         this.load.image('drawer4Open', 'imageFile/drawer4Open.png'); 
 
-        this.load.audio('break2', 'soundFile/パンチで壁を破壊.mp3');
-        this.load.audio('break', 'soundFile/重いパンチ3.mp3');
-        this.load.audio('drawerOpen', 'soundFile/引き出しを開ける.mp3');
+        this.load.audio('break2', 'soundFile/heavyPunch.mp3');
+        this.load.audio('break', 'soundFile/punch3.mp3');
+        this.load.audio('drawerOpen', 'soundFile/openDrawer.mp3');
         this.load.audio('drawerClose', 'soundFile/cupboard1_C.mp3');
     }
 

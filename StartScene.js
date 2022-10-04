@@ -11,7 +11,7 @@ class StartScene extends Phaser.Scene {
         this.load.image('itemBar', 'imageFile/itemBar.png');
         this.load.image('backIcon', 'imageFile/backIcon.png');
         this.load.image('hammer', 'imageFile/hammer.png');
-        this.load.audio('common', 'soundFile/決定ボタンを押す34.mp3');
+        this.load.audio('common', 'soundFile/button34.mp3');
         this.load.audio('unlock', 'soundFile/turning_a_lock2.mp3');
         this.load.audio('locked', 'soundFile/microwave.mp3');
         this.load.plugin('rexdragplugin', 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexdragplugin.min.js', true);

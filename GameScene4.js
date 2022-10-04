@@ -14,8 +14,8 @@ class GameScene4 extends Phaser.Scene {
         this.load.image('face4BallDoneLayer', 'imageFile/Face4BallDoneLayer.png');
         this.load.image('key4Layer', 'imageFile/key4Layer.png');
         this.load.image('key4', 'imageFile/key4.png');
-        this.load.audio('paintSound', 'soundFile/DVDをケースから出す.mp3');
-        this.load.audio('paintRemoved', 'soundFile/DVDのケースを開ける.mp3');
+        this.load.audio('paintSound', 'soundFile/takeDVD.mp3');
+        this.load.audio('paintRemoved', 'soundFile/openDVDCase.mp3');
     }
 
     create() {

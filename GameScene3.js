@@ -18,9 +18,9 @@ class GameScene3 extends Phaser.Scene {
         this.load.image('leavesLayer', 'imageFile/leavesLayer.png');
         this.load.image('leaves', 'imageFile/leaves.png');
         this.load.image('bigHammer', 'imageFile/bigHammer.png');
-        this.load.audio('screenSound', 'soundFile/決定ボタンを押す35.mp3');
+        this.load.audio('screenSound', 'soundFile/button35.mp3');
         this.load.audio('scissorsSound', 'soundFile/scissors3.mp3');
-        this.load.audio('bracketSound', 'soundFile/布団に倒れ込む.mp3');
+        this.load.audio('bracketSound', 'soundFile/bofu.mp3');
     }
 
     create() {

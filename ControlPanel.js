@@ -12,9 +12,9 @@ class ControlPanel extends Phaser.Scene {
         this.load.image('controlPanelKeyHoleInserted', 'imageFIle/ControlPanelKeyHoleInserted.png');
         this.load.image('controlPanelKeyHoleTurned', 'imageFIle/controlPanelKeyHoleTurned.png');
         this.load.audio('handleSound', 'soundFile/staple.mp3');
-        this.load.audio('key4Sound', 'soundFile/ガスコンロの火を止める.mp3');
-        this.load.audio('mixStart', 'soundFile/パソコンの電源を入れる.mp3');
-        this.load.audio('mixEnd', 'soundFile/パソコンの電源を切る.mp3');
+        this.load.audio('key4Sound', 'soundFile/stopFire.mp3');
+        this.load.audio('mixStart', 'soundFile/pcOn.mp3');
+        this.load.audio('mixEnd', 'soundFile/pcOff.mp3');
         this.load.spritesheet('handleSpriteSheet', 'imageFile/handleSpriteSheet.png', { frameWidth: 800, frameHeight: 600 })
     }
 

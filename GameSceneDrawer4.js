@@ -9,9 +9,9 @@ class GameSceneDrawer4 extends Phaser.Scene {
         this.load.image('iceLayer', 'imageFile/iceLayer.png');
         this.load.image('milkLayer', 'imageFile/milkLayer.png');
         this.load.image('milk', 'imageFile/milk.png'); 
-        this.load.audio('drip', 'soundFile/水滴がポタポタ.mp3');
+        this.load.audio('drip', 'soundFile/potapota.mp3');
         this.load.audio('acid', 'soundFile/roasting_butter.mp3');
-        this.load.audio('acid2', 'soundFile/ぐつぐつ煮る.mp3');
+        this.load.audio('acid2', 'soundFile/gutugutu.mp3');
         this.load.spritesheet('drawer4LidSpriteSheet', 'imageFile/drawer4LidSpriteSheet.png', { frameWidth: 800, frameHeight: 600 });
     }
 

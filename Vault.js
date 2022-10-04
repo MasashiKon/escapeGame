@@ -37,13 +37,13 @@ class Vault extends Phaser.Scene {
         this.load.image('eight', 'imageFile/eight.png');
         this.load.image('nine', 'imageFile/nine.png');
         this.load.image('ballActionMask', 'imageFile/ballActionMask.png');
-        this.load.audio('tap', 'soundFile/カーソル移動1.mp3');
-        this.load.audio('correct', 'soundFile/決定ボタンを押す40.mp3');
-        this.load.audio('dropKey', 'soundFile/鍵を落とす.mp3');
+        this.load.audio('tap', 'soundFile/cursorMove.mp3');
+        this.load.audio('correct', 'soundFile/button40.mp3');
+        this.load.audio('dropKey', 'soundFile/dropKey.mp3');
         this.load.audio('drinkSound', 'soundFile/drinking1.mp3');
         this.load.audio('vaultOpneSound', 'soundFile/deep_bass_vib.mp3');
-        this.load.audio('vaultOpneSound2', 'soundFile/カメラのシャッター2.mp3');
-        this.load.audio('vaultOpneSound3', 'soundFile/電車蒸気噴出.mp3');
+        this.load.audio('vaultOpneSound2', 'soundFile/cameraShutter.mp3');
+        this.load.audio('vaultOpneSound3', 'soundFile/pushu.mp3');
         this.load.spritesheet('ballSpriteSheet', 'imageFile/ballSpriteSheet.png', { frameWidth: 800, frameHeight: 600 });
         this.load.spritesheet('drinkSpriteSheet', 'imageFile/drinkSpriteSheet.png', { frameWidth: 800, frameHeight: 600 });
     }
