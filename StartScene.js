@@ -35,7 +35,7 @@ class StartScene extends Phaser.Scene {
         this.load.image('handleScene', 'imageFile/handleScene.png');
         this.load.image('controlPanelKeyHole', 'imageFile/ControlPanelKeyHole.png');
         this.load.image('controlPanelKeyHoleInserted', 'imageFile/ControlPanelKeyHoleInserted.png');
-        this.load.image('controlPanelKeyHoleTurned', 'imageFile/controlPanelKeyHoleTurned.png');
+        this.load.image('controlPanelKeyHoleTurned', 'imageFile/ControlPanelKeyHoleTurned.png');
         this.load.audio('handleSound', 'soundFile/staple.mp3');
         this.load.audio('key4Sound', 'soundFile/stopFire.mp3');
         this.load.audio('mixStart', 'soundFile/pcOn.mp3');
