@@ -217,4 +217,5 @@ const config = {
     scene: [StartScene, GameScene1, GameScene2, GameScene3, GameScene4, Face1KeyHole, Shed1, Shed2, Shed3, DeskLamp, GameSceneDrawer1Upside, GameSceneDrawer1Downside, GameSceneDrawer2, GameSceneDrawer3, GameSceneDrawer4, ControlPanel, MixScene, PeekThroughNum, BallScene, Box1Scene, ScreenSide, PaintNum, Vault, GoalScene]
 };
 
+
 const game = new Phaser.Game(config);
